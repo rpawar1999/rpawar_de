@@ -12,21 +12,24 @@ body {
 header {
     background: linear-gradient(to right, #007BFF, #52B788);
     color: white;
-    padding: 20px 0;
-    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-h1, h2 {
-    font-weight: 700;
+.logo img {
+    height: 50px;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin: 0 20px;
 }
 
